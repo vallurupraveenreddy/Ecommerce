@@ -2,7 +2,7 @@ import React from 'react'
 
 function NewsLetterBox() {
     const onSubmitHandler=(event)=>{
-        event .preventdefault();
+        event .preventDefault();
     }
   return (
     <div className='text-center'>
